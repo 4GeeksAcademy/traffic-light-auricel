@@ -10,3 +10,47 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.seleccionador{
+    height: 300px;
+    width: 30px;
+    background-color: black;
+    margin: 30px auto 0 auto;
+}
+.caja-de-colores{
+    height: 530px;
+    width: 200px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 10%;
+    padding-top: 15px;
+}
+.light{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 20px auto;
+}
+.rojoLight{
+    background-color: red;
+}
+.amarilloLight{
+    background-color: yellow;
+}
+.verdeLight{
+    background-color: rgb(0, 255, 0);  
+}
+.violetaLight{
+    background-color: purple;
+}
+.lightColorRojo{
+    box-shadow: 0 0 100px 60px rgba(255, 0, 0, 0.8);
+}
+.lightColorAmarillo{
+    box-shadow: 0 0 100px 60px rgba(255, 255, 0, 0.8);
+}
+.lightColorVerde{
+    box-shadow: 0 0 100px 60px rgba(0, 255, 0, 0.8);
+}
+.lightColorVioleta{
+    box-shadow: 0 0 100px 60px rgba(255, 0, 255, 0.8);
+}
